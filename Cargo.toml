@@ -1,0 +1,16 @@
+[package]
+name = "image-optimizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-sdk-s3 = "1.58.0"
+aws_lambda_events = "0.15.1"
+image = "0.25.4"
+imageproc = "0.25.0"
+webp = "0.3.0"
+serde = { version = "1.0", features = ["derive"] }
+lambda_runtime = "0.13.0"
+serde_json = "1.0.132"
+tokio = "1.41.0"
+aws-config = "1.5.9"
